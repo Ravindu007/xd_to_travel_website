@@ -6,7 +6,7 @@ const Section1 = () => {
     <div className='section-1' style={{marginTop:"100px"}}>
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6">
             <p style={{fontSize:"20px"}}>Best Destinations around the world</p>
             <p style={{fontSize:"84px", lineHeight:1.2, fontWeight:800}}>
               <span>Travel, enjoy</span>
@@ -31,8 +31,8 @@ const Section1 = () => {
                 </button>
             </div>
           </div>
-          <div className="col-6">
-            <img src="/Image.png" alt="" />
+          <div className="col-sm-12 col-md-6">
+            <img src="/Image.png" alt="" className='mx-auto img-fluid d-none d-md-block'/>
           </div>
         </div>
       </div>

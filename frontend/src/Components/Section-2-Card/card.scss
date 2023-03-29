@@ -1,0 +1,8 @@
+.card{
+  border-radius: 36px;
+}
+
+.card:hover{
+  padding: 10px;
+  box-shadow: 10px 10px rgba($color: #F1A501, $alpha: 0.6);
+}
