@@ -1,10 +1,11 @@
-.card {
+.card-2 {
   border-radius: 36px;
   position: relative;
-  transition: all 0.3s ease-out;
+  box-shadow: grey 0px 3px 8px;
+  display: flex;
 }
 
-.card:hover {
+.card-2:hover {
   padding: 10px;
   border: 1px solid #F1A501;
   transform: scale(1.1);
