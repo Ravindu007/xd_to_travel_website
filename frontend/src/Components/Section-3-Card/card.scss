@@ -2,19 +2,63 @@
   border-radius: 36px;
   padding: 0;
   box-shadow: grey 0px 3px 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  overflow: hidden;
 
   .card-body{
-    display: flex;
+      display: flex;
     justify-content: center;
     padding: 0;
+    z-index: 2;
+
+    img{
+      width: 50%;
+    }
   }
 
-    .card-footer{
-        .col-12{
-          display: flex ;
-          justify-content: space-around;
-        }
+  .card-footer{
+    z-index: 2;
+
+    .location-price{
+      display: flex ;
+      justify-content: space-around;
     }
+  }  
  
 }
 
+
+.card-3::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(#F1A501, #f90000);
+  animation: rotate 3s linear infinite;
+  transform-origin: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-3:hover::before {
+  opacity: 1;
+}
+
+.card-3::after{
+  content: '';
+  position: absolute;
+  background: #fff;
+  inset: 5px;
+  border-radius: 30px;
+}
+
+@keyframes rotate{
+  from{ //going from one state to another 
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
