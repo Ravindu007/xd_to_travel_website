@@ -3,6 +3,7 @@ import Section1 from '../../Components/LandingPage/Section1'
 import Section2 from '../../Components/LandingPage/Section2'
 import Section3 from '../../Components/LandingPage/Section3'
 import Section4 from '../../Components/LandingPage/Section4'
+import Section5 from '../../Components/LandingPage/Section5'
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
       </div>
       <div className="section-4">
         <Section4/>
+      </div>
+      <div className="section-5">
+        <Section5/>
       </div>
     </div>
   )
