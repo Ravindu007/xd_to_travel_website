@@ -12,7 +12,7 @@ const Section2 = () => {
   return (
     <div className='section-2 mb-5' style={{textAlign:"center"}}>
       <p>CATEGORY</p>
-      <p style={{fontSize:"50px"}}>We Offer Best Services</p>
+      <p className='section-title'>We Offer Best Services</p>
       <div className="card-deck">
         {cards.map((card)=>(
           <Sec2Card key={card.id} card={card}/>

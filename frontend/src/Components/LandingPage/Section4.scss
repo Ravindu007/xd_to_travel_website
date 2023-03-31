@@ -1,0 +1,45 @@
+.section-4{
+  .col-7{
+    .features{
+      margin-top: 50px;
+    }
+  }
+
+  .col-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+      border: 1px solid;
+      border-radius: 16px;
+      box-shadow: 10px 5px 5px grey;
+      position: relative;
+
+      .card-body-footer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .card-body-footer > p{
+        margin-left: 20px;
+      }
+    }
+
+    .card-top{
+      content: '';
+      position: absolute;
+      width: 263px;
+      height:129px;
+      background: white;
+      bottom: 15px;
+      right: -120px;
+      border-radius: 16px;
+      box-shadow: 10px 5px 5px grey, -0.5em 0 .4em grey;
+
+    }
+
+
+  }
+}

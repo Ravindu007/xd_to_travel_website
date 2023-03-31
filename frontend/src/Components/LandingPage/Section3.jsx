@@ -15,7 +15,7 @@ const Section3 = () => {
     <div className='section-3'>
       <div className="container">
         <p>CATEGORY</p>
-        <p style={{fontSize:"50px"}}>We Offer Best Services</p>
+        <p className='section-title'>We Offer Best Services</p>
         <div className="card-deck">
           {locations && locations.map((location)=>(
             <Sec3Card key={location.id} location={location}/>
