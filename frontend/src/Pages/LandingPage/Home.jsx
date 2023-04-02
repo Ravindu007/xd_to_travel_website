@@ -5,6 +5,7 @@ import Section3 from '../../Components/LandingPage/Section3'
 import Section4 from '../../Components/LandingPage/Section4'
 import Section5 from '../../Components/LandingPage/Section5'
 import Section6 from '../../Components/LandingPage/Section6'
+import Section7 from '../../Components/LandingPage/Section7'
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
       </div>
       <div className="section-6">
         <Section6/>
+      </div>
+      <div className="section-7">
+        <Section7/>
       </div>
     </div>
   )
