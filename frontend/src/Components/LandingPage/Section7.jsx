@@ -14,7 +14,7 @@ const Section7 = () => {
             placeholder = "Your Email"  
           />
           <button
-            className='btn btn-warning'
+            className='btn ml-2'
           > 
             Subscribe
           </button>

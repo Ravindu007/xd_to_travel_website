@@ -1,0 +1,38 @@
+.Section8{
+  height: 30vh;
+  .brand{
+    #brand{
+      font-size: 44px;
+    }
+    #details{
+      font-size: 13px;
+    }
+  }
+
+  .company, .contact, .more{
+    display: flex;
+    flex-direction: column;
+    .heading{
+      font-size: 21px;
+      font-weight: 400;
+    }
+    .link{
+      font-size: 13px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .external-links{
+    .social-media{
+      margin-top: -40px;
+      display: flex;
+      justify-content: center;
+
+    }
+    .apps{
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

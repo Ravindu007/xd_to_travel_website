@@ -6,6 +6,7 @@ import Section4 from '../../Components/LandingPage/Section4'
 import Section5 from '../../Components/LandingPage/Section5'
 import Section6 from '../../Components/LandingPage/Section6'
 import Section7 from '../../Components/LandingPage/Section7'
+import Section8 from '../../Components/LandingPage/Section8'
 
 const Home = () => {
   return (
@@ -31,6 +32,12 @@ const Home = () => {
       <div className="section-7">
         <Section7/>
       </div>
+      <div className="section-8">
+        <Section8/>
+      </div>
+      <footer style={{textAlign:"center"}}>
+        <p>All rights reserved &copy;Jadoo.co</p>
+      </footer>
     </div>
   )
 }
